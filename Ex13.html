@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Задание 13</title>
+</head>
+<body>
+<script language="JavaScript" type="text/JavaScript">
+function zoom_in(image) {
+        image.querySelector("img").style.transform = "scale(1.5)";
+}
+function zoom_out(image) {
+        image.querySelector("img").style.transform = "scale(1)";
+}
+</script>
+<div class="" onmouseover="zoom_in(this)" onmouseout="zoom_out(this)">
+<img src="img.gif">
+</div>
+</body>
+</html>
