@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>Задание 7</title>
+<script language="JavaScript">
+function breakdown() {
+	school_items = new Array("математика", "физика", "химия", "биология", "ИЗО", "литература", "обществознание")
+	exact_items = new Array()
+	exact_items = school_items.slice(1, 4)
+	human_items = new Array()
+	human_items = school_items.slice(5, 7)
+	document.write("Точные предметы: " + exact_items + "<br>")
+	document.write("Гуманитарные предметы: " + human_items)
+}
+</script>
+</head>
+<body>
+<script language="JavaScript">
+breakdown()
+</script>
+</body>
+</html>
